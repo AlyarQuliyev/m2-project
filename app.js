@@ -118,6 +118,7 @@ function dragStart(e) {
 }
 function dragEnter(e) {
   this.classList.add("over");
+  
 }
 function dragLeave(e) {
   e.stopPropagation();
